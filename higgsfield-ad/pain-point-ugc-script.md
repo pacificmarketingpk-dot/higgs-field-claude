@@ -54,3 +54,58 @@ Generate in segments so each beat can be re-rolled without redoing the whole ad,
 ## Before running as a paid ad
 - Confirm any product claims ("in minutes", supported formats) against Higgsfield's current features.
 - If this runs as an official Higgsfield ad, get brand approval; if it's an affiliate/creator ad, add the platform's paid-partnership disclosure.
+
+---
+
+## Copy-paste Higgsfield prompts (with element slots)
+
+### Elements to create first
+Upload each once in Higgsfield and save it as an element. In the prompts below, wherever you see **`@NAME`**, delete that text and insert the matching element with the **@ mention** picker.
+
+| Slot | What to upload | Used in |
+|---|---|---|
+| `@Maya` | 3–5 clear photos of the presenter's face (front, ¾ left, ¾ right), same hoodie | Prompts 1, 3, 4, 5, 6 |
+| `@Kitchen` | 1 photo of the empty kitchen-table set (laptop, ring light, window) | Prompts 1, 3, 4, 5, 6 |
+| `@Product` | 1 clean photo of the product she sells (e.g. skincare bottle) | Prompts 4, 5 |
+| `@HiggsfieldUI` | 1 screenshot of the real Higgsfield generate screen | Prompt 4 |
+
+> Rule: mention each element **once**, the first time it appears in the prompt. After that, call it "she" or "the product". Don't describe her face in words — the element handles identity; words only describe action, wardrobe and camera.
+
+### Prompt 1 — Hook (0–3 s) · video, 9:16, audio on
+```
+Vertical 9:16 UGC selfie video, handheld phone camera. @Maya sits at the table in @Kitchen, grey hoodie, hair in a loose bun. She drops her face into her hands, sighs, then looks up straight into the lens and says, frustrated but honest: "I spent three weeks and my whole ad budget on one video." Soft morning window light, natural skin texture, slight camera wobble, real-phone look.
+```
+
+### Prompt 2 — Pain montage (3–8 s) · 3 images → image-to-video, 2 s each (no elements)
+```
+a) Close-up of a laptop calendar packed with red "Shoot", "Edit", "Revisions" blocks, shallow focus, vertical 9:16.
+b) Close-up of a phone email inbox with a thread titled "Re: Re: Re: revisions v7", unread badge, vertical 9:16.
+c) Close-up of a printed production invoice on a desk, the large total circled in red marker, vertical 9:16.
+```
+Animate each with: `slow push-in, subtle handheld drift, 2 seconds`.
+
+### Prompt 3 — Agitate + turn (8–16 s) · video, 9:16, audio on
+```
+Vertical 9:16 UGC selfie video. @Maya at the table in @Kitchen, same grey hoodie. She scrolls her phone, turns it toward the camera showing a flat ad-results screen, and says, deflated: "And by the time it went live? The trend was dead. Ad got ignored. Back to zero." Then she leans closer to the lens, lowers her voice, small smile: "So here's what I do now." Handheld, natural daylight, casual delivery.
+```
+
+### Prompt 4 — Solution demo (16–24 s) · video, 9:16, audio on
+```
+Vertical 9:16 UGC video, over-the-shoulder then selfie. @Maya at the laptop in @Kitchen types a prompt into @HiggsfieldUI and uploads a photo of @Product. A finished vertical ad featuring the product plays on the laptop screen. She turns to camera holding her phone up showing the result and says, excited: "I type what I want, drop in my product, and Higgsfield makes the video. In minutes, not weeks." Natural light, handheld, authentic.
+```
+> If the UI looks wrong in the generation, replace the laptop-screen part with a real screen recording in the edit.
+
+### Prompt 5 — Proof (24–27 s) · video, 9:16, audio on
+```
+Vertical 9:16 UGC selfie video. @Maya, relaxed, sits in @Kitchen; behind her the laptop screen shows a grid of six different vertical video ads for @Product. She says, smiling: "Now I test five ads a week instead of one a month." Warm daylight, handheld phone look.
+```
+
+### Prompt 6 — CTA (27–30 s) · video, 9:16, audio on
+```
+Vertical 9:16 UGC selfie video. @Maya in @Kitchen points down toward the bottom of the frame and says, confident and friendly: "If video's your bottleneck — try Higgsfield. Link below." Ends on her smile. Natural light, handheld.
+```
+
+### Settings for every video prompt
+- Aspect ratio **9:16**, resolution **720p**, **audio / native dialogue ON**.
+- Keep the same `@Maya` and `@Kitchen` elements in every presenter shot so face, outfit and room match.
+- Generate 2–4 variations per prompt and pick the best take per beat.
