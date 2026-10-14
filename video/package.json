@@ -1,0 +1,24 @@
+{
+  "name": "mak-brand-film",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Mohammad Ali Khan — 60s brand film (editable Remotion composition)",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render MAKBrandFilm out/mak-brand-film.mp4",
+    "render:clean": "remotion render MAKBrandFilm out/mak-brand-film-clean.mp4 --props='{\"showPlaceholders\":false}'",
+    "still": "remotion still MAKBrandFilm",
+    "sfx": "bash tools/make-sfx.sh",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}
