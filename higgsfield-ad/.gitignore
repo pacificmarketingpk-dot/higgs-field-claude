@@ -1,0 +1,3 @@
+out/
+elements/*
+!elements/ids.json
